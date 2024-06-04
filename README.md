@@ -84,7 +84,10 @@ AppDaemon je volně spojené, vícevláknové, sandboxované prostředí pro spo
 ha_url: http://ip-adresa-nebo-url-vaseho-ha:8123
 token: vas-token-ktery-jste-si-vytvorili-vyse
 ```
-4. v části appdaemon doplňte `app_dir: /homeassistant/appdaemon/apps`
+4. v části appdaemon doplňte
+```
+app_dir: /homeassistant/appdaemon/apps
+```
 5. přidejte část:
 ```
 logs:
